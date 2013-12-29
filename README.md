@@ -1,3 +1,5 @@
+Yii Composite Unique Validator Extension
+==============================
 
 ##Tags
 unique, composite, unique key, composite unique key, validator, unique validator
