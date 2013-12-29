@@ -16,21 +16,19 @@ Extract the zip file.<br>
 Put everything under `ECompositeUniqueValidator/components` into your `protected/components` folder.<br>
 Put everything under `ECompositeUniqueValidator/extensions` into your `protected/extensions` folder.<br>
 Make sure that the extension is imported in your config file `protected/config/main.php`:
-~~~
-[php]
+```php
 'import'=>array(
 	...
 	'ext.ECompositeUniqueValidator',
 	// 'ext.*', // <---- this works too
 ),
-~~~
+```
 
 
 
 ####Example 1 (Basic)
 In your model file:
-~~~
-[php]
+```php
 public function rules()
 {
 	return array(
@@ -38,13 +36,12 @@ public function rules()
 		...
 	);
 }
-~~~
+```
 This rule ensures that each (book_id, tag) combination is unique in the corresponding database table. 
 
 ####Example 2
 In your model file:
-~~~
-[php]
+```php
 public function rules()
 {
 	return array(
@@ -54,7 +51,7 @@ public function rules()
 		...
 	);
 }
-~~~
+```
 The property `attributesToAddError` defines to which attribute(s) the error message should be added to, if a validation error occurrs. It should be a comma separated list of attributes. If not specified, the error will be added to the first attribute in the list of attributes.<br>
 The placeholder `{value_tag}` will be replaced with the current value of the attribute `tag`.
 
