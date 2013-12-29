@@ -1,7 +1,7 @@
-Yii Composite Unique Validator Extension
+Yii Composite Unique Validator
 ==============================
 
-_ECompositeUniqueValidator_ validates that the combined values of the given attributes (composite key) is unique in the corresponding database table. 
+_ECompositeUniqueValidator_ is a Yii extension that validates that the combined values of the given attributes (composite key) is unique in the corresponding database table. 
 
 It is a modification of the build in _CUniqueValidator_. All properties and methods of the _CUniqueValidator_ 
 should also work with this validator, with the exception of the property `attributeName`.
@@ -95,7 +95,8 @@ therefore all listed attributes are validated together.
 
 
 ###Resources
-* [Yii Extension Page](http://www.yiiframework.com/extension/composite-unique-validator/ "composite unique validator - extension page")
-* [Yii Forum Page](http://www.yiiframework.com/forum/index.php/topic/50223-composite-unique-key-validator/ "composite unique validator - forum page")
+* [Yii Extension Page](http://www.yiiframework.com/extension/composite-unique-validator/ "composite-unique-validator - Yii Extension Page")
+* [Yii Forum Page](http://www.yiiframework.com/forum/index.php/topic/50223-composite-unique-key-validator/ "composite-unique-validator - Yii Forum Page")
+* [GitHub Page](https://github.com/c-cba/yii-composite-unique-validator "yii-composite-unique-validator - GitHub Page")
 * [composite-unique-key-validatable](http://www.yiiframework.com/extension/composite-unique-key-validatable "composite-unique-key-validatable"): An extension, that also validates composite unique keys of AR-models, implemented as a behaviour. 
 * [unique-attributes-validator](http://www.yiiframework.com/extension/unique-attributes-validator "unique-attributes-validator"): Another extension that validates unique constraints with more then one attribute.
